@@ -20,10 +20,17 @@ body {
 
 .principal {
 	background: #293B5F;
-	border-top: 20px solid #47597E;
+	border-top: 40px solid #47597E;
+	padding-bottom: 30px;
 	color: #fff;
-	padding: 50px 0;
 	width: 100%;
+}
+
+.principal-title {
+	text-align: center;
+	margin: 15px;
+	font-size: 75px;
+	font-family: 'Indie Flower', cursive;
 }
 
 .principal .formulario {
@@ -44,7 +51,7 @@ body {
 
 .principal .formulario .boton {
 	background: none;
-	border: 1px solid #D32F2F;
+	border: 1px solid #fff;
 	color: #fff;
 	display: inline-block;
 	font-size: 16px;
@@ -52,7 +59,7 @@ body {
 }
 
 .principal .formulario .boton:hover {
-	border: 1px solid #fff;
+	background-color: rgba(33, 33, 33, 0.5);
 }
 
 /*-- Diseño de tareas --*/
@@ -69,6 +76,8 @@ body {
 	display: block;
 	padding: 20px 0;
 	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+	font-size: 28px;
 }
 
 .tareas .lista li a:hover {
